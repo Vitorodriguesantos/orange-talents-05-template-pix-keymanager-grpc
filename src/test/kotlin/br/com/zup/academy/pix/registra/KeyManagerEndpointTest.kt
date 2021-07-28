@@ -145,7 +145,7 @@ internal class KeyManagerEndpointTest(
         //validação
         with(oErro){
             Assertions.assertEquals(Status.INVALID_ARGUMENT.code,this.status.code)
-            Assertions.assertEquals("registra.novaChave: A chave passada 'CPF' nao é valida",this.status.description)
+            Assertions.assertEquals("registra.novaChave: A chave passada nao é valida",this.status.description)
         }
 
     }

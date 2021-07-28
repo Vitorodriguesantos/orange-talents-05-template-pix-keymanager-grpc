@@ -20,7 +20,6 @@ data class ChavePix(
 
     @Id
     @GeneratedValue
-    @Column(columnDefinition = "BINARY(16)")
     val id: UUID? = null
 
     @Column(nullable = false)
